@@ -16,12 +16,12 @@ public class ProductController {
     private final ProductService productService;
 
     @GetMapping
-    public List<Product> getProducts() {
+    public List<ProductDTO> getProducts() {
         return productService.getAllProducts();
     }
 
     @GetMapping("/category/{categoryId}")
-    public List<Product> getProductsByCategory(@PathVariable Long categoryId) {
+    public List<ProductDTO> getProductsByCategory(@PathVariable Long categoryId) {
         return productService.getAllProductsByCategory(categoryId);
     }
 
