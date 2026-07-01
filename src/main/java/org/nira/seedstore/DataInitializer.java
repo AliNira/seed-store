@@ -34,21 +34,21 @@ public class DataInitializer implements CommandLineRunner {
         Product tomato = new Product();
         tomato.setName("Tomato Seeds");
         tomato.setDescription("Tomato Seeds");
-        tomato.setImageUrl("https://placehold.co/600x400");
+        tomato.setImageUrl("https://images.unsplash.com/photo-1582284540020-8acbe03f4924?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
         tomato.setPrice(5.0);
         tomato.setCategory(vegetable);
 
         Product cucumber = new Product();
         cucumber.setName("Cucumber Seeds");
         cucumber.setDescription("Cucumber Seeds");
-        cucumber.setImageUrl("https://placehold.co/600x400");
+        cucumber.setImageUrl("https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
         cucumber.setPrice(4.5);
         cucumber.setCategory(vegetable);
 
         Product carrot = new Product();
         carrot.setName("Carrot Seeds");
         carrot.setDescription("Carrot Seeds");
-        carrot.setImageUrl("https://placehold.co/600x400");
+        carrot.setImageUrl("https://images.unsplash.com/photo-1655558132738-8a4f5124186f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
         carrot.setPrice(3.5);
         carrot.setCategory(vegetable);
 
@@ -56,21 +56,21 @@ public class DataInitializer implements CommandLineRunner {
         Product watermelon = new Product();
         watermelon.setName("Watermelon Seeds");
         watermelon.setDescription("Watermelon Seeds");
-        watermelon.setImageUrl("https://placehold.co/600x400");
+        watermelon.setImageUrl("https://images.unsplash.com/photo-1629084092232-b7b3fa74cd4b?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
         watermelon.setPrice(6.0);
         watermelon.setCategory(fruit);
 
         Product melon = new Product();
         melon.setName("Melon Seeds");
         melon.setDescription("Melon Seeds");
-        melon.setImageUrl("https://placehold.co/600x400");
+        melon.setImageUrl("https://plus.unsplash.com/premium_photo-1675040830254-1d5148d9d0dc?q=80&w=327&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
         melon.setPrice(5.5);
         melon.setCategory(fruit);
 
         Product strawberry = new Product();
         strawberry.setName("Strawberry Seeds");
         strawberry.setDescription("Strawberry Seeds");
-        strawberry.setImageUrl("https://placehold.co/600x400");
+        strawberry.setImageUrl("https://plus.unsplash.com/premium_photo-1675731118661-15dc54c11130?q=80&w=327&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
         strawberry.setPrice(7.0);
         strawberry.setCategory(fruit);
 
